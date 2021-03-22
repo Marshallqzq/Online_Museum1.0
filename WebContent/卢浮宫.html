@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>卢浮宫</title>
+    <style type="text/css">
+    .example{
+        position: relative;
+        left: 0 ;
+        top: 0 ;
+        width: 1440px;
+        height: 3056px;
+        background-color: rgba(242, 239, 237, 100);
+    }
+    .example1{
+        position: absolute;
+        left: 115px;
+        top: 90px;
+        width: 140px;
+        height: 31px;
+        color: rgba(72, 69, 64, 100);
+        font-size: 28px;
+        text-align: left;
+        font-family: 方正新书宋-标准;
+    }
+    .example2{
+        position: absolute;
+        transform:rotate(90deg);
+        left: 22px;
+        top: 155px;
+        width: 150px;
+        height: 33px;
+        color: rgba(16, 16, 16, 100);
+        font-size: 23px;
+        text-align: left;
+        font-family: Arial-regular;
+    }
+    .example3{
+        position: absolute;
+        left: 114px;
+        top: 125px;
+        width: 180px;
+        height: 66px;
+        color: rgba(16, 16, 16, 100);
+        font-size: 60px;
+        text-align: left;
+        font-family: 方正新书宋-标准;
+    }
+    .example4{
+        position: absolute;
+        left: 121px;
+        top: 201px;
+        width: 64px;
+        height: 1px;
+        border: 5px solid rgba(202, 93, 78, 100);
+    }
+    .example5{
+        position: absolute;
+        transform:rotate(90deg);
+        left: 1177px;
+        top: 522px;
+        width: 450px;
+        height: 16px;
+        color: rgba(72, 69, 64, 100);
+        font-size: 14px;
+        text-align: left;
+        font-family: Arial-regular;
+    }
+    .example6{
+        position: absolute;
+        background-image:url('图片 Copy.png');
+        left: 79px;
+        top: 268px;
+        width: 1283px;
+        height: 762px;
+    }
+    .example7{
+        position: absolute;
+        left: 80px;
+        top: 304px;
+        width: 60px;
+        height: 66px;
+        color: rgba(16, 16, 16, 100);
+        font-size: 60px;
+        text-align: left;
+        font-family: 方正新书宋-标准;
+    }
+    .example8{
+        position: absolute;
+        transform:rotate(90deg);
+        left: -120px;
+        top: 650px;
+        width: 470px;
+        height: 0px;
+        border: 1px solid rgba(202, 93, 78, 100);
+    }
+    .example9{
+        position: absolute;
+        transform:rotate(45deg);
+        left: 109px;
+        top: 900px;
+        width: 11px;
+        height: 11px;
+        line-height: 20px;
+        background-color: rgba(202, 93, 78, 100);
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 100);
+    }
+    .example10{
+        position: absolute;
+        transform:rotate(45deg);
+        left: 109px;
+        top: 925px;
+        width: 11px;
+        height: 11px;
+        line-height: 20px;
+        background-color: rgba(72, 69, 64, 100);
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 100);
+    }
+    .example11{
+        position: absolute;
+        transform:rotate(45deg);
+        left: 109px;
+        top: 950px;
+        width: 11px;
+        height: 11px;
+        line-height: 20px;
+        background-color: rgba(72, 69, 64, 100);
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 100);
+    }
+    .example12{
+        position: absolute;
+        left: 1189px;
+        top: 70px;
+        width: 50px;
+        height: 50px;
+        background-color: rgba(242, 239, 237, 100);
+    }
+    .example13{
+        position: absolute;
+        left: 1266px;
+        top: 70px;
+        width: 50px;
+        height: 50px;
+        background-color: rgba(242, 239, 237, 100);
+    }
+    .example14{
+        position: absolute;
+        left: 1328px;
+        top: 66px;
+        width: 50px;
+        height: 50px;
+        background-color: rgba(242, 239, 237, 100);
+    }
+    .example15{
+        position: absolute;
+        background-image:url('卢浮宫背景图.jpg');
+        left: 0px;
+        top: 8px;
+        width: 1440px;
+        height: 821px;
+    }
+    .example16{
+        position: absolute;
+        left: 104px;
+        top: 963px;
+        width: 504px;
+        height: 79px;
+        color: rgba(16, 16, 16, 100);
+        font-size: 72px;
+        text-align: left;
+        font-family: 方正新书宋-标准;
+    }
+    .example17{
+        position: absolute;
+        left: 99px;
+        top: 1071px;
+        width: 800px;
+        height: 79px;
+        color: rgba(16, 16, 16, 100);
+        font-size: 72px;
+        text-align: left;
+        font-family: 方正新书宋-标准;
+    }
+    .example18{
+        position: absolute;
+        left: 102px;
+        top: 1179px;
+        width: 64px;
+        height: 1px;
+        border: 5px solid rgba(202, 93, 78, 100);
+    }
+    .example19{
+        position: absolute;
+        left: 99px;
+        top: 1227px;
+        width: 650px;
+        height: 100px;
+        color: rgba(16, 16, 16, 100);
+        font-size: 20px;
+        text-align: left;
+        font-family: SourceHanSansSC-regular;
+        line-height:30px;
+    }
+    .example20{
+        position: absolute;
+        left: 1351px;
+        top: 984px;
+        width: 60px;
+        height: 66px;
+        color: rgba(72, 69, 64, 100);
+        font-size: 60px;
+        text-align: left;
+        font-family: 方正新书宋-标准;
+    }
+    .example21{
+        position: absolute;
+        transform:rotate(90deg);
+        left: 1150px;
+        top: 1320px;
+        width: 470px;
+        height: 1px;
+        border: 1px solid rgba(202, 93, 78, 100);
+    }
+    .example22{
+        position: absolute;
+        transform:rotate(45deg);
+        left: 1380px;
+        top: 1570px;
+        width: 11px;
+        height: 11px;
+        line-height: 20px;
+        background-color: rgba(72, 69, 64, 100);
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 100);
+    }
+    .example23{
+        position: absolute;
+        transform:rotate(45deg);
+        left: 1380px;
+        top: 1595px;
+        width: 11px;
+        height: 11px;
+        line-height: 20px;
+        background-color: rgba(202, 93, 78, 100);
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 100);
+    }
+    .example24{
+        position: absolute;
+        transform:rotate(45deg);
+        left: 1380px;
+        top: 1620px;
+        width: 11px;
+        height: 11px;
+        line-height: 20px;
+        background-color: rgba(72, 69, 64, 100);
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 100);
+    }
+    .example25{
+        position: absolute;
+        left: 1340px;
+        top: 1688px;
+        width: 78px;
+        height: 78px;
+    }
+    .example26{
+        position: absolute;
+        transform:rotate(90deg);
+        left: 67px;
+        top: 2030px;
+        width: 64px;
+        height: 1px;
+        border: 5px solid rgba(202, 93, 78, 100);
+    }
+    .example27{
+        position: absolute;
+        left: 120px;
+        top: 1988px;
+        width: 144px;
+        height: 39px;
+        color: rgba(16, 16, 16, 100);
+        font-size: 36px;
+        text-align: left;
+        font-family: 方正新书宋-标准;
+    }
+    .example28{
+        position: absolute;
+        left: 120px;
+        top: 2050px;
+        width: 200px;
+        height: 23px;
+        color: rgba(16, 16, 16, 100);
+        font-size: 20px;
+        text-align: left;
+        font-family: Arial-regular;
+    }
+    .example29{
+        position: absolute;
+        left: 1351px;
+        top: 2007px;
+        width: 60px;
+        height: 66px;
+        color: rgba(72, 69, 64, 100);
+        font-size: 60px;
+        text-align: left;
+        font-family: 方正新书宋-标准;
+    }
+    .example30{
+        position: absolute;
+        transform:rotate(90deg);
+        left: 1150px;
+        top: 2330px;
+        width: 470px;
+        height: 1px;
+        border: 1px solid rgba(202, 93, 78, 100);
+    }
+    .example31{
+        position: absolute;
+        transform:rotate(45deg);
+        left: 1379px;
+        top: 2588px;
+        width: 11px;
+        height: 11px;
+        line-height: 20px;
+        background-color: rgba(72, 69, 64, 100);
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 100);
+    }
+    .example32{
+        position: absolute;
+        transform:rotate(45deg);
+        left: 1379px;
+        top: 2613px;
+        width: 11px;
+        height: 11px;
+        line-height: 20px;
+        background-color: rgba(72, 69, 64, 100);
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 100);
+    }
+    .example33{
+        position: absolute;
+        transform:rotate(45deg);
+        left: 1379px;
+        top: 2638px;
+        width: 11px;
+        height: 11px;
+        line-height: 20px;
+        background-color: rgba(202, 93, 78, 100);
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 100);
+    }
+    
+     .example34{
+        position: absolute;
+        background-image:url('卢浮宫部分藏品图/《萨莫色雷斯岛的胜利女神》雕像.jpg');
+        left:120px;
+        top: 2170px;
+        width: 200px;
+        height: 266px;
+    }
+     .example35{
+        position: absolute;
+        background-image:url('卢浮宫部分藏品图/《伊莎贝拉•黛丝恬肖像》.jpg');
+        left:370px;
+        top: 2170px;
+        width: 200px;
+        height: 259px;
+    }
+      .example36{
+        position: absolute;
+        background-image:url('卢浮宫部分藏品图/方片A的作弊者.jpg');
+        left:620px;
+        top: 2170px;
+        width: 200px;
+        height: 158px;
+    }
+      .example37{
+        position: absolute;
+        background-image:url('卢浮宫部分藏品图/汉谟拉比法典.jpg');
+        left:870px;
+        top: 2170px;
+        width: 200px;
+        height: 311px;
+    }
+       .example38{
+        position: absolute;
+        background-image:url('卢浮宫部分藏品图/克罗顿的米隆.jpg');
+        left:120px;
+        top: 2520px;
+        width: 200px;
+        height: 300px;
+    }
+        .example39{
+        position: absolute;
+        background-image:url('卢浮宫部分藏品图/蒙娜丽莎.jpg');
+        left:370px;
+        top: 2520px;
+        width: 200px;
+        height: 294px;
+    }
+       .example40{
+        position: absolute;
+        background-image:url('卢浮宫部分藏品图/宰相洛兰的圣母.jpg');
+        left:620px;
+        top: 2520px;
+        width: 200px;
+        height: 214px;
+    }
+    .example41{
+        position: absolute;
+
+        left:120px;
+        top: 2450px;
+        width: 200px;
+        height: 20px;
+        color: rgba(130, 127, 123, 100);
+        font-size: 13px;
+        text-align: left;
+        font-family: SourceHanSansSC-regular;
+
+    }
+    .example42{
+
+        position: absolute;
+        background-image:url('back.svg');
+        left: 1350px;
+        top: 920px;
+        width: 50px;
+        height:50px;
+        background-color:  rgba(242, 239, 237, 100);
+    }
+
+    .example43{
+        position: absolute;
+
+
+
+        left:370px;
+        top: 2450px;
+        width: 200px;
+        height: 20px;
+        color: rgba(130, 127, 123, 100);
+        font-size: 13px;
+        text-align: left;
+        font-family: SourceHanSansSC-regular;
+
+    }
+    .example44{
+        position: absolute;
+
+
+
+        left:620px;
+        top: 2350px;
+        width: 200px;
+        height: 20px;
+        color: rgba(130, 127, 123, 100);
+        font-size: 13px;
+        text-align: left;
+        font-family: SourceHanSansSC-regular;
+
+    }
+    .example45{
+        position: absolute;
+
+
+
+
+        left:870px;
+        top: 2500px;
+        width: 200px;
+        height: 20px;
+        color: rgba(130, 127, 123, 100);
+        font-size: 13px;
+        text-align: left;
+        font-family: SourceHanSansSC-regular;
+
+    }
+    .example46{
+        position: absolute;
+
+
+        left:120px;
+        top: 2830px;
+        width: 200px;
+        height: 20px;
+        color: rgba(130, 127, 123, 100);
+        font-size: 13px;
+        text-align: left;
+        font-family: SourceHanSansSC-regular;
+
+    }
+    .example47{
+        position: absolute;
+
+
+
+        left:370px;
+        top: 2830px;
+        width: 200px;
+        height: 20px;
+        color: rgba(130, 127, 123, 100);
+        font-size: 13px;
+        text-align: left;
+        font-family: SourceHanSansSC-regular;
+
+    }
+    .example48{
+        position: absolute;
+        left:620px;
+        top: 2750px;
+        width: 200px;
+        height: 20px;
+        color: rgba(130, 127, 123, 100);
+        font-size: 13px;
+        text-align: left;
+        font-family: SourceHanSansSC-regular;
+
+    }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="example"></div>
+    
+    <div class="example15"></div>
+    <div class="example16">卢浮宫</div>
+    <div class="example17">Musée du Louvre</div>
+    <div class="example18"></div>
+    <div class="example19">卢浮宫（法语：Musée du Louvre）位于法国巴黎市中心的塞纳河北岸，位居世界四大博物馆之首。</br>始建于1204年，原是法国的王宫，居住过50位法国国王和王后，是法国文艺复兴时期最珍贵的建筑物之一，以收藏丰富的古典绘画和雕刻而闻名于世。</div>
+    <div class="example20">02</div>
+    <div class="example21"></div>
+    <div class="example22"></div>
+    <div class="example23"></div>
+    <div class="example24"></div>
+    <div class="example26"></div>
+    <div class="example27">展品一览</div>
+    <div class="example28">E X H I B I T I O N</div>
+    <div class="example29">03</div>
+    <div class="example30"></div>
+    <div class="example31"></div>
+    <div class="example32"></div>
+    <div class="example33"></div>
+       <a class="example34" href="卢浮宫部分展品/《萨莫色雷斯岛的胜利女神》雕像.html"target="_self"></a>
+        <a class="example35" href="卢浮宫部分展品/《伊莎贝拉•黛丝恬肖像》.html"target="_self"></a>
+          <a class="example36" href="卢浮宫部分展品/方片A的作弊者.html"target="_self"></a>
+            <a class="example37" href="卢浮宫部分展品/汉谟拉比法典.html"target="_self"></a>
+              <a class="example38" href="卢浮宫部分展品/克罗顿的米隆.html"target="_self"></a>
+              <a class="example39" href="卢浮宫部分展品/蒙娜丽莎.html"target="_self"></a>
+               <a class="example40" href="卢浮宫部分展品/宰相洛兰的圣母.html"target="_self"></a>
+               <div class="example41">《萨莫色雷斯岛的胜利女神》雕像</div>
+        <a class="example42"href="导览页.html"target="_self"> </a>
+
+    <div class="example43">《伊莎贝拉•黛丝恬肖像》</div>
+    <div class="example44">方片A的作弊者</div>
+    <div class="example45">汉谟拉比法典</div>
+    <div class="example46">克罗顿的米隆</div>
+    <div class="example47">蒙娜丽莎</div>
+    <div class="example48">宰相洛兰的圣母</div>
+
+
+</body>
+</html> 
